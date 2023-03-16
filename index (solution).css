@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.card {
+    width: 18%;
+    padding: 10px;
+}
+
+.card > h3 {
+    color: black;
+}
+
+.card-red {
+    border: 2px solid red;
+}
+
+.card-blue {
+    border: 2px solid blue;
+}
+
+.card-green {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.card-yellow {
+    border: 2px solid orange;
+}
+
+.card-purple {
+    border: 4px solid purple;
+}
