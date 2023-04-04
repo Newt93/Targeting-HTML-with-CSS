@@ -1,64 +1,54 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="stylesheet" href="index.css">
-</head>
-
 <body>
+  <style>
+    div {
+      width: 18%;
+      padding: 10px;
+      border: 2px solid blue;
+    }
+
+    /* Problem 1: Change the font size of the h3 tags to 30px. */
+    h3 {
+      font-size: 30px;
+    }
+
+    /* Problem 2: Change the font color of the paragraph text to blue. */
+    p {
+      color: gray;
+    }
+
+    /* Problem 3: Add a margin of 10px to the div tags. */
+    div {
+      margin: 10px;
+    }
+
+    /* Problem 4: Change the font family of the paragraph text to Arial. */
+    p {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Problem 5 (DEBUGGING): The p tags are supposed to be bold, but they is not. */
+    p {
+      font-weight: bold; /* changed the property to font-weight */
+    }
+  </style>
   <h1>Practice Problems Webpage</h1>
   <p>All your solutions for this set of practice problems are located in the Replit console. Please open the console by
     clicking the wrench icon near the top-right corner of this browser.
   </p>
-  <div style="display: flex; justify-content: space-between; width: 100%; background-color: lightgrey;">
-    <div style="width: 18%; padding: 10px; border: 2px solid red;">
-      <h3 style="font-size: 20px;">Card 1</h3>
-      <p style="color: red;">This is the content of Card 1.</p>
-    </div>
-    <div style="width: 18%; padding: 10px; border: 2px solid blue;">
-      <h3 style="font-size: 20px;">Card 2</h3>
-      <p style="font-weight: bold;">This is the content of Card 2.</p>
-    </div>
-    <div style="width: 18%; padding: 10px; border: 2px solid green; border-radius: 10px;">
-      <h3 style="font-size: 20px;">Card 3</h3>
-      <p>This is the content of Card 3.</p>
-    </div>
-    <div style="width: 18%; padding: 10px; border:2px solid orange; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);">
-      <h3 style="font-size: 20px;">Card 4</h3>
-      <p>This is the content of Card 4.</p>
-    </div>
-    <div style="width: 18%; padding: 10px; border: 4px solid purple;">
-      <h3 style="font-size: 20px;">Card 5</h3>
-      <p style="font-family: Arial;">This is the content of Card 5.</p>
-    </div>
-
+  <div>
+    <h3>Card 1</h3>
+    <p>This is the content of Card 1.</p>
   </div>
-  <style>
-    /* Problem 1: Change the font size of the h3 tags to 20px. */
-    h3 {
-      font-size: 20px;
-    }
-
-    /* Problem 2: Change the font color of the paragraph text in Card 1 to red. */
-    div: nth-child(1)>p {
-      color: red;
-    }
-
-    /* Problem 3: Add a box-shadow to the Card 4 div. */
-    div: nth-child(4) {
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    }
-
-    /* Problem 4: Change the font family of the paragraph text in Card 5 to Arial. */
-    div: nth-child(5)>p {
-      font-family: Arial, sans-serif;
-    }
-
-    /* Problem 5 (DEBUGGING): The text content of Card 2 is supposed to be bold, but it is not. */
-    div: nth-child(2)>p {
-      font-weight: bold;
-    }
-  </style>
+  <div>
+    <h3>Card 2</h3>
+    <p>This is the content of Card 2.</p>
+  </div>
+  <div>
+    <h3>Card 3</h3>
+    <p>This is the content of Card 3.</p>
+  </div>
   <section
     style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
     <h3>About The Solutions</h3>
